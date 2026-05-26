@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MoveAllZeroesToLeft {
     public static void main(String[] args) {
-        int[] arr={1,5,0,8,2,0,0,1};
+        int[] arr={1,5,0,8,2,0,2,0};
         int n= arr.length;
         int j=n-1;
         int i=n-1;
