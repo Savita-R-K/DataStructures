@@ -4,7 +4,7 @@ import java.util.*;
 
 public class FindTheLongestNonRepeatingSubarray {
     public static void main(String[] args) {
-        int[] arr={1,3,5,1};
+        int[] arr={1,3,5,1,2,4,1,6,7,8,9};
         Map<Integer,Integer> map=new LinkedHashMap<>();
         int point=0;
         int maxLen=0;
